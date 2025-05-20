@@ -1,10 +1,10 @@
 {
-  "name": "Gestor de Tareas",
-  "short_name": "Tareas",
+  "name": "Quiz de Redes",
+  "short_name": "QuizRedes",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#2b8a3e",
+  "theme_color": "#1a73e8",
   "icons": [
     {
       "src": "icons/icon-192.png",

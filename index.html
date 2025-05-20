@@ -5,15 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="manifest" href="manifest.json">
-  <title>Gestor de Tareas</title>
+  <title>Quiz de Redes</title>
 </head>
 <body>
-  <h1>Mis Tareas</h1>
-  <form id="task-form">
-    <input type="text" id="task-input" placeholder="Escribe una tarea" required>
-    <button type="submit">Agregar</button>
-  </form>
-  <ul id="task-list"></ul>
+  <main class="container">
+    <h1>Cuestionario de Conceptos de Redes</h1>
+    <section id="quiz-box">
+      <p id="question"></p>
+      <div id="options"></div>
+      <button id="next-btn" disabled>Siguiente</button>
+    </section>
+    <section id="result-box" class="hidden">
+      <h2>Resultado</h2>
+      <p id="score"></p>
+      <button id="restart-btn">Reiniciar</button>
+    </section>
+  </main>
 
   <script src="app.js"></script>
   <script>
